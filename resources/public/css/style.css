@@ -1,0 +1,34 @@
+body {
+	background-color: #015965;
+	color: white;
+}
+
+a {
+	color: #A65000;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: #FF7A00;
+}
+
+input {
+	border-width: 0;
+}
+
+input[type="submit"] {
+	background-color: #FF7A00;
+	color: white;
+}
+
+#content-block {
+	margin: 10em auto;
+	padding: 1em;
+	border: 2px solid #5FC0CE;
+	border-radius: 8px;
+	background-color: #03899C;
+	width: 500px;
+	text-align: center;
+}
+
+#htmlResult {
+	margin: 10px auto;
+}
