@@ -17,6 +17,7 @@
 (defn index-page "Renders the whole main page from parts" []
      (html5 
        [:head
+        [:title "Shorthand Site"]
         (include-all-js)
         (include-css "css/style.css")]
        [:body
