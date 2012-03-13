@@ -23,12 +23,16 @@ input[type="submit"] {
 	margin: 10em auto;
 	padding: 1em;
 	border: 2px solid #5FC0CE;
-	border-radius: 8px;
+	/*border-radius: 8px;*/
+	border-radius: 60em 25em 100em 30em/10em 100em 10em 55em;
+	-webkit-border-radius: 60em 25em 100em 30em/10em 100em 10em 55em;
+	-moz-border-radius: 60em 25em 100em 30em/10em 100em 10em 55em;
+	-o-border-radius: 60em 25em 100em 30em/10em 100em 10em 55em;
 	background-color: #03899C;
 	width: 500px;
 	text-align: center;
 }
 
 #htmlResult {
-	margin: 10px auto;
+	margin: 2em auto;
 }
