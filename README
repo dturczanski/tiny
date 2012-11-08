@@ -1,13 +1,11 @@
 # tiny
 
-FIXME: write description
+A sample link shortener web app
 
 ## Usage
 
-FIXME: write
+lein repl
+(require 'tiny.app)
+(tiny.app/run)
 
-## License
-
-Copyright (C) 2012 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Navigate to http://localhost:8080
